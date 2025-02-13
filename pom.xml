@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>jaxp.jdk</groupId>
+    <artifactId>jaxp-jdk11</artifactId>
+    <version>0.0.4-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>jaxp-jdk11</name>
+    <description>Modifica alla libreria fornita dalla guida ufficiale RedHat (https://access.redhat.com/solutions/4652491) ed estesa con factory / metodi mancanti.</description>
+
+    <parent>
+		<groupId>it.eng.parer</groupId>
+		<artifactId>parer-pom</artifactId>
+		<version>6.5.0</version>
+	</parent>
+
+    <scm>
+		<developerConnection>scm:git:git@gitlab.ente.regione.emr.it:parer/lib/jaxp-jdk.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.site.skip>true</maven.site.skip>
+    </properties>
+
+    <dependencies>
+    </dependencies>
+
+    <build>
+       <finalName>jaxp-jdk11</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+           </plugin>
+        </plugins>
+    </build>
+</project>
