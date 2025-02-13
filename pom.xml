@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>jaxp.jdk</groupId>
     <artifactId>jaxp-jdk11</artifactId>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>jaxp-jdk11</name>
     <description>Modifica alla libreria fornita dalla guida ufficiale RedHat (https://access.redhat.com/solutions/4652491) ed estesa con factory / metodi mancanti.</description>
