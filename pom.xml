@@ -13,8 +13,22 @@
 		<version>6.5.0</version>
 	</parent>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/RegioneER/parer-jaxp-jdk</url>
+        </repository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/RegioneER/parer-framework-parerpom</url>
+        </repository>
+    </repositories>
+
     <scm>
-		<developerConnection>scm:git:git@gitlab.ente.regione.emr.it:parer/lib/jaxp-jdk.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/RegioneER/parer-jaxp-jdk.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
